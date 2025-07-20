@@ -1,0 +1,36 @@
+main.contact {
+    margin-top: 80px;
+}
+
+main.contact form {
+    width: 70%;
+}
+
+main.contact form input {
+    display: block;
+    width: 100%;
+    padding: 15px 5px;
+    border: none;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    margin-bottom: 40px;
+    box-shadow: 0px 1px 0px 0px rgb(255 254 254);
+}
+
+main.contact form input:focus {
+    outline: none;
+}
+
+main.contact form input[type='number']::-webkit-outer-spin-button,
+main.contact form input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+main.contact form button[type='submit'] {
+    background-color: #1ABC9C;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 8px;
+}

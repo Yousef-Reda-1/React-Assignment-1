@@ -1,0 +1,50 @@
+footer .data {
+    background-color: #2C3E50;
+}
+
+footer .data address {
+    line-height: 2.5;
+}
+
+footer .data ul {
+    width: 60%;
+    margin: 0 auto;
+    list-style: none;
+    padding: 10px 20px 0;
+}
+
+footer .data ul li {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid white;
+    margin: 8px 5px 0;
+}
+
+footer .copyright {
+    background-color: #1A252F;
+}
+
+@media (min-width: 1199px) and (max-width: 1399px) {
+
+    footer .data ul li {
+    margin: 8px 10px 0;
+    }
+}
+
+/*@media (max-width:) {
+    footer .data ul li {
+        width: 25%;
+    }
+}
+
+@media (max-width:) {
+    footer .data ul li {
+        width: 25%;
+    }
+} */

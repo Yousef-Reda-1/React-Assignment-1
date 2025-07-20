@@ -1,0 +1,45 @@
+main.Portfolio {
+    margin-top: 80px;
+    /* position: relative; */
+}
+
+main.Portfolio .overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 1031;
+    background-color: #5299fd59;
+}
+
+main.Portfolio .overlay .image-holder {
+    width: 35%;
+} 
+
+main.Portfolio .inner {
+    cursor: pointer;
+    position: relative;
+}
+
+main.Portfolio .inner::after {
+    content: '\2b';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    width: 100%;
+    height: 100%;
+    background-color: #1abc9cad;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+main.Portfolio .inner:hover::after {
+    opacity: 1;
+}

@@ -1,0 +1,58 @@
+h1 {
+    position: relative;
+    text-transform: uppercase;
+    width: fit-content;
+    margin: auto;
+    color: white !important;
+    font-weight: bold !important;
+}
+
+h1::before,
+h1::after {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h1::before {
+    content: '\f005';
+    font-size: 20px;
+    position: absolute;
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    bottom: -51px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #1ABC9C;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1::after {
+    content: '';
+    width: 60%;
+    height: 5px;
+    position: absolute;
+    background-color: white;
+    bottom: -30px;
+}
+
+main.Portfolio h1,
+main.contact h1 {
+    color: #2C3E50 !important;
+    margin: 40px auto 80px;
+}
+
+main.Portfolio h1::before,
+main.contact h1::before {
+    background-color: white;
+
+}
+
+main.Portfolio h1::after,
+main.contact h1::after {
+    background-color: #2C3E50;
+}
