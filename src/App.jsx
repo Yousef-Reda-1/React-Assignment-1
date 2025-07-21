@@ -5,6 +5,7 @@ import Home from './components/Home/Home'
 import About from './components/About/About'
 import Portfolio from './components/Portofolio/Portfolio'
 import Contact from './components/Contact/Contact'
+import Notfound from './components/Notfound'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         { path: '/about', element: <About></About> },
         { path: '/portfolio', element: <Portfolio></Portfolio> },
         { path: '/contact', element: <Contact></Contact> },
+        { path: '*', element: <Notfound></Notfound> }
       ]
     }
   ])
