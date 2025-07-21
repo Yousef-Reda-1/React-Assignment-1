@@ -5,7 +5,7 @@ export default function Contact() {
         <main className="contact overflow-auto">
             <h1>contact section</h1>
             <div className="container px-5">
-                <form action="" className='mx-auto'>
+                <form action="" className='mx-auto mb-5'>
                     <input type="text" placeholder='userName' name='userName' />
                     <input type="number" placeholder='userAge' name='age' />
                     <input type="email" placeholder='userEmail' name='email' />
